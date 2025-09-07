@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="loader">Loading...</div>
+    <button id="toggleMode">🌙 Toggle Dark/Light</button>
+    <h1>📊 Dashboard</h1>
+    <div id="stats">
+      <p>👤 Users: <span id="userCount">0</span></p>
+      <p>📝 Posts: <span id="postCount">0</span></p>
+      <p>💬 Comments: <span id="commentCount">0</span></p>
+    </div>
+    <nav>
+      <a href="users.html">Users</a> |
+      <a href="posts.html">Posts</a>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
